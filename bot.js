@@ -76,3 +76,5 @@ client.login(TOKEN);
 // deploy
 
 // reload
+
+setInterval(() => {}, 1000);
