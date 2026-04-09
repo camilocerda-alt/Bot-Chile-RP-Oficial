@@ -73,14 +73,10 @@ client.on('interactionCreate', async interaction => {
 // 🚀 LOGIN
 client.login(TOKEN);
 
-// deploy
+const http = require("http");
 
-// reload
-
-setInterval(() => {}, 1000);
-
-require("http").createServer((req, res) => {
+http.createServer((req, res) => {
   res.end("Bot activo");
 }).listen(process.env.PORT || 3000);
 
-// fix final
+setInterval(() => {}, 1000);
