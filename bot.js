@@ -78,3 +78,7 @@ client.login(TOKEN);
 // reload
 
 setInterval(() => {}, 1000);
+
+require("http").createServer((req, res) => {
+  res.end("Bot activo");
+}).listen(3000);
