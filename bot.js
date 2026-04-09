@@ -80,3 +80,5 @@ http.createServer((req, res) => {
 }).listen(process.env.PORT || 3000);
 
 setInterval(() => {}, 1000);
+
+(Use `node --trace-deprecation ...` to show where the warning was created)
