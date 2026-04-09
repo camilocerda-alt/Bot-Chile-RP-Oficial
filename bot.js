@@ -81,6 +81,6 @@ setInterval(() => {}, 1000);
 
 require("http").createServer((req, res) => {
   res.end("Bot activo");
-}).listen(3000);
+}).listen(process.env.PORT || 3000);
 
 // fix final
