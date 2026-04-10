@@ -181,7 +181,7 @@ client.on('interactionCreate', async interaction => {
       embeds: [{
         title: "📱 Redes",
         description:
-          "📺 https://www.youtube.com/@Camiteboxea1\n\n" +
+          "📺 https://www.youtube.com/Camiteboxea\n\n" +
           "🎮 https://kick.com/camikgg9\n\n" +
           "🎵 https://tiktok.com/@camikgg9",
         color: 0x5865F2
