@@ -199,3 +199,5 @@ client.login(TOKEN);
 require("http").createServer((req, res) => {
   res.end("Bot activo");
 }).listen(process.env.PORT || 3000);
+
+// revive
